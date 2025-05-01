@@ -1,0 +1,369 @@
+(10, 20, 5, 20)
+Trial: 1
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.906103912438173
+average_reward of eps_greedy is 0.6135291055920087
+average_reward of optimal policy is 0.9150906900338726
+Total run time: 1511.1770275570002
+Trial: 2
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.9061100791014216
+average_reward of eps_greedy is 0.6032075710563067
+average_reward of optimal policy is 0.9187478903442428
+Total run time: 1104.917412841
+Trial: 3
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.915424106705006
+average_reward of eps_greedy is 0.6055224508989885
+average_reward of optimal policy is 0.912755463484255
+Total run time: 1156.7813806979998
+Trial: 4
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.9130990005165333
+average_reward of eps_greedy is 0.5895406264107869
+average_reward of optimal policy is 0.9057647410916969
+Total run time: 1618.8131077110002
+Trial: 5
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.908432762007143
+average_reward of eps_greedy is 0.61849712096652
+average_reward of optimal policy is 0.9244106952823862
+Total run time: 1472.5145774510002
+Trial: 6
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.9117591027843333
+average_reward of eps_greedy is 0.613884492978905
+average_reward of optimal policy is 0.9070938648750537
+Total run time: 1672.5687464289995
+Trial: 7
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.0016874320923012
+average_reward of eps_greedy is 0.6141930870190404
+average_reward of optimal policy is 0.9130852053607567
+Total run time: 1265.485992774
+Trial: 8
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.9150811862744873
+average_reward of eps_greedy is 0.59354666809684
+average_reward of optimal policy is 0.9057653865639962
+Total run time: 1317.6006433750008
+Trial: 9
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.91442560705944
+average_reward of eps_greedy is 0.6105366380523024
+average_reward of optimal policy is 0.9170874588344768
+Total run time: 1065.897752752
+Trial: 10
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.9031001450717578
+average_reward of eps_greedy is 0.6042134026887217
+average_reward of optimal policy is 0.9190830740105407
+Total run time: 1183.7382557419987
+size of raw-data is (10, 30000)
+file name is result_s20_a5_h10_d10.npz
+(10, 100, 5, 100)
+Trial: 1
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.9077619540678591
+average_reward of eps_greedy is 0.5998558231164915
+average_reward of optimal policy is 0.9147465529874979
+Total run time: 1479.1898822580006
+Trial: 2
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.907762338827665
+average_reward of eps_greedy is 0.593201661748517
+average_reward of optimal policy is 0.9080827642828024
+Total run time: 1275.3500757380007
+Trial: 3
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.9184215052236732
+average_reward of eps_greedy is 0.6088147427532592
+average_reward of optimal policy is 0.9104211727860206
+Total run time: 1428.6263813310015
+Trial: 4
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.0015629388802797142
+average_reward of eps_greedy is 0.6068322770771295
+average_reward of optimal policy is 0.9080879490569349
+Total run time: 1622.9475655049973
+Trial: 5
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.9140902697213672
+average_reward of eps_greedy is 0.6158298277689527
+average_reward of optimal policy is 0.9167483121895647
+Total run time: 1795.8129540260015
+Trial: 6
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.9180834374049391
+average_reward of eps_greedy is 0.5928619890547452
+average_reward of optimal policy is 0.9104241109604732
+Total run time: 1349.2423123260014
+Trial: 7
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.9177517702658813
+average_reward of eps_greedy is 0.6074981445229158
+average_reward of optimal policy is 0.9107563062941073
+Total run time: 1284.9217829169975
+Trial: 8
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.9154236412768496
+average_reward of eps_greedy is 0.6121501513509158
+average_reward of optimal policy is 0.9154149189172905
+Total run time: 1509.897126656997
+Trial: 9
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.9157587151092239
+average_reward of eps_greedy is 0.5995107613385502
+average_reward of optimal policy is 0.9164102254584868
+Total run time: 1786.9439909110006
+Trial: 10
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.9120947295292408
+average_reward of eps_greedy is 0.604181440306024
+average_reward of optimal policy is 0.909758236715439
+Total run time: 1476.3836703899979
+size of raw-data is (10, 30000)
+file name is result_s100_a5_h10_d10.npz
+(10, 500, 5, 500)
+Trial: 1
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.909095562668343
+average_reward of eps_greedy is 0.002180635043112534
+average_reward of optimal policy is 0.9204150349577247
+Total run time: 1754.4700037550028
+Trial: 2
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.9004371849113224
+average_reward of eps_greedy is 0.002109795825937797
+average_reward of optimal policy is 0.9064266736106269
+Total run time: 1355.802991159002
+Trial: 3
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.9040918039165299
+average_reward of eps_greedy is 0.6031690306026926
+average_reward of optimal policy is 0.9130896245676087
+Total run time: 1320.7162237820012
+Trial: 4
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.9070974063856747
+average_reward of eps_greedy is 0.6131755849716749
+average_reward of optimal policy is 0.9174230510012782
+Total run time: 1206.622728851995
+Trial: 5
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.9047690026355467
+average_reward of eps_greedy is 0.6108538931826807
+average_reward of optimal policy is 0.9154189356247521
+Total run time: 1421.5584309339974
+Trial: 6
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.9037656335588277
+average_reward of eps_greedy is 0.6241706280609521
+average_reward of optimal policy is 0.9057639495393393
+Total run time: 1489.2415938400009
+Trial: 7
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.9177540745382301
+average_reward of eps_greedy is 0.6128181024303816
+average_reward of optimal policy is 0.9164208320286598
+Total run time: 1478.7856058739999
+Trial: 8
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.9214228296972455
+average_reward of eps_greedy is 0.6081670680792448
+average_reward of optimal policy is 0.915755839677837
+Total run time: 1437.274133328996
+Trial: 9
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.904094384457107
+average_reward of eps_greedy is 0.6111588953632507
+average_reward of optimal policy is 0.9090952816750686
+Total run time: 2553.4088822310005
+Trial: 10
+we have finished0 episodes of LSVI-eps-greedy
+we have finished1000 episodes of LSVI-eps-greedy
+we have finished2000 episodes of LSVI-eps-greedy
+beta in LSVI_UCB: 0.3
+we have finished 0 episodes of LSVI-UCB
+we have finished 1000 episodes of LSVI-UCB
+we have finished 2000 episodes of LSVI-UCB
+average_reward of UCB is 0.907095901292937
+average_reward of eps_greedy is 0.598863730913946
+average_reward of optimal policy is 0.9050973252018432
+Total run time: 2008.8538722999947
+size of raw-data is (10, 30000)
+file name is result_s500_a5_h10_d10.npz
