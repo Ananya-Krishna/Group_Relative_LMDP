@@ -7,22 +7,14 @@ This repository contains the implementation of **Aggregated Feature LMDPs** and 
 ## Repository Overview
 
 - **`aggregated_feature_lmdp`**: Folder containing experimentation and visualizations for AF-LMDP setting
-- **`compute_hyperbolicity.ipynb`**: Code to compute Gromov δ-hyperbolicity of graphs.
+  - **`lincomblock.py`**: Code with linear combinatorial lock environment
+  - **`experiment.py`**: Runs linear combinatorial lock environment experiments
+  - **`experiment_gridworld.py`**: Self contained code to run Gridworld experiments (tabular setting with linear)
+  - **`agent.py`**: Features all policies and functions called in lincomblock
+  - **`batch_run.py`**: Runs all experiments
 - **`requirements.txt`**: Dependencies required to run the project.
-- **`Full HGCN Experiments Data (3 runs each).pdf`**: Results from experimental runs.
+- **`RL_Linear_Markov_Decision_Processes.ipynb`**: GR-LMDP Code
 - **`README.md`**: This document.
-
-## Datasets
-
-### Download
-Datasets used in this project can be downloaded from the following link:
-[Dataset Download](https://drive.google.com/drive/folders/1t3ZuPY_u0DZntSMGJCAdazrBtPOxoRzh?usp=sharing)
-
-### Description
-- **WordNet**: Lexical database with hierarchical relationships.
-- **PubMed**: Biomedical literature citations.
-- **FB15K**: Subset of the Freebase knowledge graph.
-- **Diseases**: Hierarchical relationships of diseases and their properties.
 
 ---
 
@@ -35,11 +27,8 @@ pip install -r requirements.txt
 ```
 
 Key dependencies include:
-- `torch`
-- `geoopt`
-- `networkx`
 - `numpy`
-- `scipy`
+- `numba`
 - `matplotlib`
 
 ---
@@ -53,77 +42,48 @@ git clone https://github.com/Ananya-Krishna/Group_Relative_LMDP.git
 cd Group_Relative_LMDP
 ```
 
-### Step 2: Prepare the Dataset
-Download and place datasets in the appropriate directory. Follow instructions in the `.ipynb` files for preprocessing.
+### Step 2: Running Experiments
 
-### Step 3: Running Experiments
-
-#### Compute Hyperbolicity
-Run the `compute_hyperbolicity.ipynb` notebook to compute δ-hyperbolicity for graphs:
+#### AF-LMDP
+```bash
+cd aggregated_feature_lmdp
+```
+Run the `batch_run.py` notebook to conduct all experiments:
 
 ```bash
-jupyter notebook compute_hyperbolicity.ipynb
+python batch_run.py
 ```
 
-#### Training HGCNs
-To train HGCNs on all datasets, use the `HGCNs_all_datasets_and_visualizations.ipynb` notebook:
+#### GR-LMDP
+To explore the group relative approach, use the `RL_Linear_Markov_Decision_Processes.ipynb` notebook:
 
 ```bash
-jupyter notebook HGCNs_all_datasets_and_visualizations.ipynb
+jupyter notebook RL_Linear_Markov_Decision_Processes.ipynb
 ```
-
-Configure the dataset (`WordNet`, `FB15K`, `PubMed`, etc.) and params(learning rate, starting curvature, optimizer) in the notebook.
 
 #### Visualize Results
-The same notebook includes code for embedding visualizations and curvature analysis.
+All scripts include code for graphs and visualizations.
 
 ---
 
-## Reproducing Main Results
+### Results 
 
-### Run Script
-To reproduce the main results, follow these steps:
+Aggregated-Feature LMDPs (AF-LMDPs) utilize symmetry in the environment by pooling features over group orbits, mapping equivalent state–action pairs to shared embeddings. This reduces the feature dimension from \( d \) to \( d_G \ll d \), while preserving the information necessary for optimal control. Experimentally, AF-LMDPs achieved the lowest cumulative regret in small, highly structured environments such as the \(4\times4\) GridWorld, where rotational and reflectional symmetries were fully exploited. These results confirm that group-invariant feature compression enhances both computational efficiency and sample efficiency. However, in environments like the linear combinatorial lock—where reward requires sustained exploration—AF-LMDPs were less effective due to limited structural regularity to exploit. \\
 
-1. Download the datasets.
-2. Select and run the corresponding script for your desired dataset in `HGCNs_all_datasets_and_visualizations.ipynb`.
-3. Train the model by running the notebook cells following dataset load-in.
+Group-Relative LMDPs (GR-LMDPs) improve computational efficiency by replacing exact dynamic programming with a Monte Carlo estimator of the value function. This approach reduces the computational complexity from exponential to polynomial time while maintaining unbiasedness. GR-LMDPs demonstrated strong performance in both small and large GridWorlds, consistently outperforming exact methods in terms of cumulative reward accumulation. In all experiments, GR-LMDPs enabled significantly faster learning curves, confirming that stochastic sampling is a viable and theoretically sound alternative to exact evaluation in large-scale episodic MDPs. \\
 
-### Results Summary
-#### Key Findings:
-- Single global curvature optimization improves representation efficiency for hierarchical datasets.
-- Validation accuracy improves as curvature aligns with the dataset’s intrinsic δ-hyperbolicity.
-- Mixed-precision Riemannian Adam optimizer yields stable convergence and improved accuracy.
-
-| Dataset    | Mean Test Accuracy (±Std) | Mean Curvature |
-|------------|-----------------------|----------------|
-| Diseases   | 91.42% (±0.68%)   | -0.9953        |
-| WordNet    | 76.78% (±1.46%)   | -0.0186        |
-| PubMed     | 86.11% (±0.21%)   | -0.8188        |
-| FB15K      | 94.34% (±0.03%)   | -0.1320        |
-
----
-
-## Summary
-
-Hyperbolic Graph Convolutional Networks (HGCNs) effectively represent hierarchical graph data. Our dynamic curvature optimization framework simplifies curvature modeling while enhancing interpretability and performance. The method leverages a single, globally optimized curvature parameter to improve node classification and link prediction tasks.
-
-**Highlights:**
-- Improved accuracy over baseline Euclidean GCNs.
-- Direct relationship between curvature and δ-hyperbolicity.
-- Visual insights into curvature-convergence dynamics.
-
----
+Looking forward, these findings suggest promising avenues for integrating symmetry-aware design into more general classes of reinforcement learning algorithms. Future work may also explore automatic symmetry discovery and its interaction with exploration strategies in unstructured or partially observable environments.
 
 ## Citation
 
 If you find this work useful, please cite:
 
 ```
-@article{krishna2024dynamiccurvature,
+@article{krishna2025grouprelativelmdp,
   title={Dynamic Curvature Optimization for Hyperbolic GCNs},
-  author={Krishna, Ananya and Kohli, Arjan},
+  author={Krishna, Ananya and Simon, Valentina},
   journal={Yale University},
-  year={2024}
+  year={2025}
 }
 ```
 
